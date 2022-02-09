@@ -1,7 +1,7 @@
 print(" Enter two values :")
 a=int(input())
 b=int(input())
-if a>b :
+if(a>b):
    print(" Big number is: ",a)
 else :
    print(" Big number is: ",b)
