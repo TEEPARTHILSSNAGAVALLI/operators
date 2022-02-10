@@ -1,0 +1,13 @@
+sno = int(input("Enter the student number:"))
+sname = input("Enter student name: ")
+sgrp = input("Enter the group: ")
+OS = int(input("Enter OS marks: "))
+AFM = int(input("Enter AFM Marks: "))
+Java = int(input("Enter Java marks: "))
+EE = int(input("Enter EE marks: "))
+OB = int(input("Enter OB marks: "))
+AS = int(input("Enter AS marks: "))
+if OS>=35 and AFM>=35 and Java>=35 and EE>=19 and OB>=19 and AS>=19 :
+   print("Pass")
+else :
+   print("Fail") 
