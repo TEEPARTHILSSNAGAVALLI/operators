@@ -3,8 +3,10 @@ B=int(input("Enter another number"))
 if(A==B):
  print("Equal")
 elif(A!=B) and (A>B):
- print("Not equal and "+ A +"is greater than "+B)
+ print("Not equal")
+ print(A,"is greater than ",B)
 else:
- print("Not equal and "+ A +"is less than "+B)
+ print("Not equal")
+ print(A,"is less than ",B)
 
   
