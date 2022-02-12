@@ -1,0 +1,31 @@
+print("Enter the prices of the things")
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+Total=A+B+C+D+E
+if(Total>5000):
+   Final=(Total/100)*10
+   Tax=(Final*0.1)
+   Final=(Tax+Final)
+   print("Total amount after 10% discount is:",Final)
+elif(Total>3000):
+   Final=(Total/100)*8
+   Tax=(Final*0.1)
+   Final=(Tax+Final)
+   print("Total amount after 8% discount is:",Final)
+elif(Total>2000):
+   Final=(Total/100)*5
+   Tax=(Final*0.18)
+   Final=(Tax+Final)
+   print("Total amount after 5% discount is:",Final)
+elif(Total>1000):
+   Final=(Total/100)*3
+   Tax=(Final*0.18)
+   Final=(Tax+Final)
+   print("Total amount after 3% discount is:",Final)
+else:
+   Tax=(Total*0.18)
+   Total=(Tax+Total)
+   print("Total amount with tax: ",Total)
