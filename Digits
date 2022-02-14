@@ -1,0 +1,7 @@
+n=int(input("Enter the number: "))
+r=0
+t=n
+while(n>0):
+     n=n//10
+     r=r+1
+print("The number of digits in ",t," are: ",r)
