@@ -1,8 +1,10 @@
-N=int(input("Enter a number: "))
-T=N
-R=0
-S=0
-while N>0 :
-    R=N%10
-    S=S+R
-print("The sum of digits in ",T," is: ",S)
+n=int(input("Enter the number:"))
+t=n
+r=0
+s=0
+while(n>0):
+    r=n%10
+    s=s+r
+    n=n//10
+print("The sum of digits of ",t," is :",s)
+
