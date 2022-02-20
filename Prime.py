@@ -11,5 +11,5 @@ for i in range(t):
         if c==2:
              s=s+1
         c=0
-        s=0
     print(s)
+    s=0
