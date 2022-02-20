@@ -1,7 +1,7 @@
 t = int(input())
 c=0
 s=0
-for i in range(n):
+for i in range(t):
     n = input()
     n = int(n)
     for j in range(2,n+1):
